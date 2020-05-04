@@ -1,0 +1,119 @@
+
+#notifi{
+	background-color: #316DC3 ;
+
+}
+.logo{
+	padding-left: 100px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.m-0 {
+    margin: 0px !important;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.fa {
+  font-size: 17px;
+  width: 10px;
+  padding-left:  5px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: white;
+}
+.fa-youtube{
+	color: white;
+}
+.fa-whatsapp{
+	color: white;
+}
+.fa-instagram{
+	color: white;
+}
+li{
+	text-align: -webkit-match-parent;
+}
+.navbar{
+	margin-bottom: 0px;
+
+}
+
+
+.container{
+	margin-bottom: 0px;
+}
+
+.active {
+	border-radius: 50px;
+	background-color: #316DC3 ;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	border-radius: 50px;
+    background-color: #316DC3 ;
+    color: white;
+}
+.dropbtn {
+  background-color: #f7f8fa;
+  color: black;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #316DC3 ;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+	background-color: #316DC3 ;
+	border-radius: 50px;
+	color: white;
+}
